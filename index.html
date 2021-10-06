@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <form class="needs-validation" novalidate action="https://formsubmit.co/josmef.apitongcm@gmail.com" method="POST" >
+        <div class="form-group">
+            <input type="hidden" name="_subject" value="New Email from your website!!">
+        </div>
+        <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+       <div class="form-group">
+            
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="formgroup">
+            <label for="comment">Comment</label><br>
+            <textarea class="form-control" name="" id="" rows="2"></textarea>
+        </div>
+        <div class="formgroup">
+            <input type="hidden" name="_next" value="www.google.com">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-danger btn-lg btn-block">Submit</button>
+    </form>
+</div>
+</body>
+</html>
